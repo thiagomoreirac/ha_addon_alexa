@@ -13,10 +13,10 @@ logging.basicConfig(
     level=logging.INFO,
     datefmt='%Y-%m-%d %H:%M:%S'
 )
-log = logging.getLogger('ha-skill')
+log = logging.getLogger('alexa-integration')
 
 # TODO: read from CloudFormation outputs
-QUEUE_NAME = 'ha-skill-requests.fifo'
+QUEUE_NAME = 'alexa-integration-requests.fifo'
 
 def handle_cloudformation_stack(session, stack_name, stack_params={}):
     log.info('Starting up!')

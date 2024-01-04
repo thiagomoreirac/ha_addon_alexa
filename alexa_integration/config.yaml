@@ -1,7 +1,7 @@
 name: "HA Skill"
 description: "Use AWS to send Alexa skill requests to HomeAssistant"
 version: "1.0.4"
-slug: "ha_skill"
+slug: "alexa_integration"
 init: false
 homeassistant_api: true
 arch:
