@@ -53,8 +53,8 @@ Use the `Access Key Id` and `Secret Access Key` of the IAM user you created in t
 
 Select the appropraite region for where your Alexa skill is located
 * `us-east-1` for English (US) or English (CA) skills
-* `eu-east-1` for English (UK), English (IN), German (DE), Spanish (ES) or French (FR) skills
-* `us-west-2` for for Japanese and English (AU) skills.
+* `eu-west-1` for English (UK), English (IN), German (DE), Spanish (ES) or French (FR) skills
+* `us-west-2` for Japanese and English (AU) skills.
 
 Fill in your `Alexa Skill Id` from when you setup the skill before
 
